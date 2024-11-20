@@ -1,0 +1,241 @@
+@media (min-width: 0px) and (max-width: 575.98px) {
+.container {
+    width: 90%;
+}
+.choose-circle {
+    width: 150px;
+    height: 150px;
+}
+.choose-circle-item img{
+    width: 20px;
+    height: 20px;
+}
+.circle-item-heading {
+	font: 400 8px/10px "Jost", sans-serif;
+}
+.choose-circle-child {
+	width: 80px;
+	height: 80px;
+}
+.choose-circle-child img {
+	width: 80px;
+}
+.choose-row {
+    justify-content: start;
+}
+.choose-content{
+    width: 100%;
+}
+.choose-title{
+    text-align: center;
+}
+.choose-heading {
+	font: 600 38px/40px "Jost", sans-serif;
+    text-align: center;
+    margin: 0% auto;
+    margin: 15px 0;
+}
+
+.choose-summery {
+    text-align: center;
+	font: 400 16px/22px "Jost", sans-serif;
+}
+.choose-col {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+.choose-circle-item:nth-child(4) {
+	left: 106%;
+}
+.choose-circle-item:nth-child(6) h3 {
+	width: 53px;
+}
+.choose-circle-item:nth-child(7) {
+	top: 91%;
+	left: 91%;
+}
+.choose-circle-item:nth-child(5) {
+	left: 118%;
+}
+.chooseCircleBorder::after {
+    box-shadow: none;
+}
+.choose-circle-item:nth-child(8) {
+	top: 93%;
+}
+.choose-circle-item:nth-child(9) {
+	left: -2%;
+}
+.choose-circle-item:nth-child(10) {
+	left: -18%;
+}
+.choose-circle-item:nth-child(11) {
+	left: -14%;
+}
+.choose-circle-item:nth-child(12) {
+	top: 4%;
+	left: 6%;
+}
+.choose-circle-default img{
+    width: 20px;
+    height: 20px;
+}
+}
+    
+@media (min-width: 576px) and (max-width: 767.98px) {
+.choose-circle {
+    width: 250px;
+    height: 250px;
+}
+.choose-circle-child {
+	width: 80px;
+	height: 80px;
+}
+.choose-circle-child img {
+	width: 80px;
+}
+.choose-row {
+    justify-content: start;
+}
+.choose-content{
+    width: 100%;
+}
+.choose-title{
+    text-align: center;
+}
+.choose-heading {
+	font: 600 38px/40px "Jost", sans-serif;
+    text-align: center;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.choose-summery {
+    max-width: 100%;
+    text-align: center;
+	font: 400 16px/22px "Jost", sans-serif;
+}
+.choose-col {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+.choose-circle-item img{
+    width: 30px;
+}
+.circle-item-heading {
+	font: 500 12px/17px "Jost", sans-serif;
+}
+.choose-circle-item:nth-child(6) {
+	top: 71%;
+	left: 102%;
+}
+.choose-circle-item:nth-child(4) {
+	left: 106%;
+}
+.choose-circle-item:nth-child(6) h3 {
+	width: 53px;
+}
+.choose-circle-item:nth-child(7) {
+	top: 90%;
+	left: 90%;
+}
+.choose-circle-item:nth-child(5) {
+	left: 118%;
+}
+.chooseCircleBorder::after {
+    box-shadow: none;
+}
+.choose-circle-item:nth-child(8) {
+	top: 93%;
+}
+.choose-circle-item:nth-child(9) {
+	left: -2%;
+}
+.choose-circle-item:nth-child(10) {
+	left: -18%;
+}
+.choose-circle-item:nth-child(11) {
+	left: -14%;
+}
+.choose-circle-item:nth-child(12) {
+	top: 4%;
+	left: 6%;
+}
+.choose-circle-default img{
+    width: 30px;
+}
+}
+    
+@media (min-width: 768px) and (max-width: 991.98px) {
+.choose-content{
+    width: 100%;
+}
+.choose-title{
+    text-align: center;
+}
+.choose-heading {
+	font: 600 38px/40px "Jost", sans-serif;
+    text-align: center;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.choose-summery {
+    max-width: 100%;
+    text-align: center;
+	font: 400 16px/22px "Jost", sans-serif;
+}
+.choose-col {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+.choose-circle {
+	width: 420px;
+	height: 420px;
+}
+.choose-circle-item img{
+    width: 60px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.choose-content{
+    width: 100%;
+}
+.choose-title{
+    text-align: center;
+}
+.choose-heading {
+	font: 600 38px/40px "Jost", sans-serif;
+    text-align: center;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.choose-summery {
+    max-width: 100%;
+    text-align: center;
+	font: 400 16px/22px "Jost", sans-serif;
+}
+.choose-col {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+}
+    

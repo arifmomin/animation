@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6, p{
+    margin: 0%;
+    padding: 0%;
+}
+.container {
+    max-width: 1200px;
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+#choose-us{
+    padding: 110px 0;
+    background: #171718;
+}
+.choose-title{
+    font: 600 22px/32px "Jost", sans-serif;
+    color: white;
+}
+.choose-heading{
+    font: 600 58px/52px "Jost", sans-serif;
+    background: linear-gradient(60deg, #84D5EE 0%, #A4ECAF 51%, #A875DE 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    max-width: 456px;
+    margin: 20px 0 32px;
+}
+.choose-summery{
+    font: 400 18px/28px "Jost", sans-serif;
+    color: white;
+    max-width: 456px;
+    text-wrap: wrap;
+}
+.choose-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 150px;
+}
+.choose-content{
+    width: 40%;
+}
+.choose-circle {
+    width: 490px;
+    height: 490px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.chooseCircleBorder::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    visibility: hidden;
+    background: transparent;
+    border-radius: 50%;
+    border-bottom: 2px solid #8555B7;
+    box-shadow: 0px 4px 0px rgba(132, 85, 183, 0.5);
+    animation: 2s ease-in-out  circle-rotate .5s forwards;
+}  
+  @keyframes circle-rotate{
+    0%{
+        opacity: 0;
+        visibility: hidden;
+        transform: rotate(0deg);
+    }100%{
+        opacity: 100;
+        visibility: visible;
+        transform: rotate(1080deg);
+    }
+  }
+  .choose-circle-child{
+    position: absolute;
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    background: #171718;
+    box-shadow: 0px 0px 20px rgba(64, 119, 246, 0.5);
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(-50%, -50%);
+}
+.chooseCircleChild{
+      animation: circleChild .3s linear .5s forwards;
+  }
+  @keyframes circleChild{
+    0%{
+        opacity: 0;
+        visibility: hidden;
+    }
+    100%{
+        opacity: 100%;
+        visibility: visible;
+    }
+  }
+  .choose-circle-image{
+    position: absolute;
+    max-width: 255px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.choose-circle-default{
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    z-index: 9999;
+}
+.choose-circle-default h3 {
+    max-width: 120px;
+    text-wrap: wrap;
+    text-align: center;
+}
+.choose-circle-default:nth-child(2){
+    bottom: 0%;
+    left: -15%;
+    flex-direction: row-reverse;
+}
+.choose-circle-default:nth-child(3) {
+    bottom: 16%;
+    left: -23%;
+    flex-direction: column;
+}
+.choose-circle-default:nth-child(4) {
+    bottom: 59%;
+    left: -20%;
+    flex-direction: column;
+}
+.choose-circle-default:nth-child(5) {
+    bottom: 78%;
+    left: 17%;
+    flex-direction: column;
+}
+.choose-circle-default:nth-child(6) {
+    bottom: 46%;
+    left: 6%;
+    flex-direction: column;
+}
+.choose-circle-default:nth-child(6) h3{
+    max-width: 135px;
+}
+.choose-circle-default:nth-child(7) {
+    bottom: 16%;
+    left: 21%;
+    flex-direction: column;
+}
+.choose-circle-default:nth-child(8) {
+    bottom: 18%;
+    left: 56%;
+    flex-direction: column;
+}
+.choose-circle-default:nth-child(9) {
+    bottom: 50%;
+    left: 46%;
+    flex-direction: column;
+}
+.choose-circle-default:nth-child(10) {
+    bottom: 76%;
+    left: 68%;
+    flex-direction: column;
+}
+.choose-circle-default:nth-child(11) {
+    bottom: 46%;
+    left: 78%;
+    flex-direction: column;
+}
+.choose-circle-default:nth-child(12) {
+    bottom: 0%;
+    left: 78%;
+}
+.choose-circle-item{
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 10px;
+    transform: translateX(-50%);
+    transition: all linear 1s;
+}
+
+.circle-item-heading{
+    font: 500 18px/26px "Jost", sans-serif;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    max-width: 185px;
+}
+.choose-circle-item:nth-child(2){
+    top: -15%;
+    left: 50%;
+    flex-direction: column-reverse;
+    row-gap: 10px;
+}
+.choose-circle-item:nth-child(3) {
+    top: 1%;
+    left: 94%;
+}
+.choose-circle-item:nth-child(4) {
+    top: 23%;
+    left: 104%;
+}
+.choose-circle-item:nth-child(5) {
+    top: 51%;
+    left: 112%;
+}
+.choose-circle-item:nth-child(6) {
+    top: 76%;
+    left: 107%;
+}
+.choose-circle-item:nth-child(6) h3{
+    width: 185px;
+    text-wrap: wrap;
+}
+.choose-circle-item:nth-child(7) {
+    top: 91%;
+    align-items: end;
+    left: 79%;
+}
+.choose-circle-item:nth-child(8) {
+    top: 91%;
+    align-items: end;
+    left: 26%;
+    flex-direction: row-reverse;
+}
+.choose-circle-item:nth-child(9) {
+    top: 76%;
+    left: 4%;
+    flex-direction: row-reverse;
+}
+.choose-circle-item:nth-child(10) {
+    top: 51%;
+    left: -12%;
+    flex-direction: row-reverse;
+}
+.choose-circle-item:nth-child(11) {
+    top: 23%;
+    left: -8%;
+    flex-direction: row-reverse;
+}
+.choose-circle-item:nth-child(12) {
+    top: 1%;
+    left: 10%;
+    flex-direction: row-reverse;
+}
+.section{
+    padding: 300px 0;
+    background: #84D5EE;
+}
